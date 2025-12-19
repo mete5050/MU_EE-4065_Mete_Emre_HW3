@@ -2,9 +2,9 @@
 --- Q1: Otsu Grayscale Result ---
 P5
 64 64
-255
+255\n
 <img width="64" height="64" alt="img_005_20251219_223832" src="https://github.com/user-attachments/assets/cedbfbcc-0a96-40bb-9656-b6fbcc7267b5" />
-
+\n
 --- Q2: Otsu Color Result ---
 P5
 64 64
