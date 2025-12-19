@@ -17,7 +17,6 @@
 ---
 
 ### 1. Otsu Eşikleme (Otsu's Thresholding) [Q1 & Q2]
-Gri seviye ve renkli görüntüler üzerinde hesaplanan dinamik eşik değerine göre elde edilen ikili (binary) sonuçlar aşağıdadır. [cite_start]Otsu yöntemi kullanılarak arka plan ve ön plan otomatik olarak ayrıştırılmıştır[cite: 6, 10].
 
 | **Q1: Grayscale Otsu Result** | **Q2: Color Otsu Result** |
 |:---:|:---:|
@@ -27,8 +26,6 @@ Gri seviye ve renkli görüntüler üzerinde hesaplanan dinamik eşik değerine 
 ---
 
 ### 2. Morfolojik Operasyonlar (Morphological Operations) [Q3]
-Elde edilen ikili görüntü (binary mask) üzerine uygulanan morfolojik işlemlerin sonuçları. [cite_start]Bu işlemler gürültü giderme ve nesne şekillendirme amacıyla uygulanmıştır[cite: 11, 12, 13].
-
 | **Erosion (Aşındırma)** | **Dilation (Genişleme)** |
 |:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/315f7d54-d3eb-459b-8202-b43524c38f7f" width="128" height="128" alt="Erosion"> | <img src="https://github.com/user-attachments/assets/f3af2092-eaa8-4464-a8eb-63467fd35c4c" width="128" height="128" alt="Dilation"> |
