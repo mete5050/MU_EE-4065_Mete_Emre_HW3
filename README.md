@@ -1,13 +1,23 @@
 # EE 4065 - Embedded Digital Image Processing: Homework 3
 
 **Ders:** EE 4065 - Embedded Digital Image Processing  
-**Ödev:** Homework 3 (Otsu's Thresholding & Morphological Operations)  
+[cite_start]**Ödev:** Homework 3 (Otsu's Thresholding & Morphological Operations) [cite: 1, 2]  
 **Platform:** STM32H7 & Python  
-Original Fotoğraf: 
-|<img width="64" height="64" alt="ALF" src="https://github.com/user-attachments/assets/447ebf3d-97d9-4074-9e08-75c7b37d84e2" />|
+
+---
+
+### 📷 Orijinal Görüntü (Original Image)
+İşlemlerde kullanılan kaynak görüntü.
+
+| **Original Input** |
+|:---:|
+| <img src="https://github.com/user-attachments/assets/447ebf3d-97d9-4074-9e08-75c7b37d84e2" width="128" height="128" alt="ALF Original"> |
+| *ALF (64x64)* |
+
+---
 
 ### 1. Otsu Eşikleme (Otsu's Thresholding) [Q1 & Q2]
-Gri seviye ve renkli görüntüler üzerinde hesaplanan dinamik eşik değerine göre elde edilen ikili (binary) sonuçlar aşağıdadır.
+Gri seviye ve renkli görüntüler üzerinde hesaplanan dinamik eşik değerine göre elde edilen ikili (binary) sonuçlar aşağıdadır. [cite_start]Otsu yöntemi kullanılarak arka plan ve ön plan otomatik olarak ayrıştırılmıştır[cite: 6, 10].
 
 | **Q1: Grayscale Otsu Result** | **Q2: Color Otsu Result** |
 |:---:|:---:|
@@ -17,7 +27,7 @@ Gri seviye ve renkli görüntüler üzerinde hesaplanan dinamik eşik değerine 
 ---
 
 ### 2. Morfolojik Operasyonlar (Morphological Operations) [Q3]
-Elde edilen ikili görüntü (binary mask) üzerine uygulanan morfolojik işlemlerin sonuçları.
+Elde edilen ikili görüntü (binary mask) üzerine uygulanan morfolojik işlemlerin sonuçları. [cite_start]Bu işlemler gürültü giderme ve nesne şekillendirme amacıyla uygulanmıştır[cite: 11, 12, 13].
 
 | **Erosion (Aşındırma)** | **Dilation (Genişleme)** |
 |:---:|:---:|
