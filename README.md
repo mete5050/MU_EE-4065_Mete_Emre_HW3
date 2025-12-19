@@ -3,7 +3,8 @@
 **Ders:** EE 4065 - Embedded Digital Image Processing  
 **Ödev:** Homework 3 (Otsu's Thresholding & Morphological Operations)  
 **Platform:** STM32H7 & Python  
-
+Original Fotoğraf: 
+|<img width="64" height="64" alt="ALF" src="https://github.com/user-attachments/assets/447ebf3d-97d9-4074-9e08-75c7b37d84e2" />|
 
 ### 1. Otsu Eşikleme (Otsu's Thresholding) [Q1 & Q2]
 Gri seviye ve renkli görüntüler üzerinde hesaplanan dinamik eşik değerine göre elde edilen ikili (binary) sonuçlar aşağıdadır.
