@@ -6,7 +6,7 @@
 
 ---
 
-### 📷 Orijinal Görüntü (Original Image)
+Original Image
 İşlemlerde kullanılan kaynak görüntü.
 
 | **Original Input** |
